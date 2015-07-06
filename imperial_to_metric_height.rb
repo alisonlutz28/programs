@@ -3,22 +3,31 @@ def convert_inches_to_centimeters(number)
 	return height_centimeters
 end
 
-puts "What is your name?"
+answer = "no"
+while answer != "quit"
+	puts "What is your name?"
 
-my_name = gets
+	my_name = gets.chomp.downcase
 
-my_name = my_name.chomp
+	if my_name == "alison"
+		puts "Bye"
+		break
+	end
 
-puts "What is your height in inches?"
+	puts "What is your height in inches?"
 
-height_inches = gets.chomp.to_f
+	height_inches = gets.chomp.to_f
 
-puts "What is your weight in pounds?"
+	puts "What is your weight in pounds?"
 
-weight_pounds = gets.chomp.to_f
+	weight_pounds = gets.chomp.to_f
 
-height_centimeters = convert_inches_to_centimeters(height_inches)
+	height_centimeters = convert_inches_to_centimeters(height_inches)
 
-weight_kilograms = weight_pounds * 0.453592
+	weight_kilograms = weight_pounds * 0.453592
 
-puts "#{my_name} is #{height_centimeters.to_s} cm and #{weight_kilograms.to_s} kg."
+	puts "#{my_name} is #{height_centimeters.to_s} cm and #{weight_kilograms.to_s} kg."
+
+	puts "Are you done calculating? If so, enter 'quit'."
+	answer = gets.chomp.downcase
+end
