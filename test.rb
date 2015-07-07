@@ -1,9 +1,8 @@
-avl_hoods = ["West AVL", "Downtown", "Montford", "RAD"]
+#literal constructor
+s = "hello"
 
-avl_hoods.each do |name|
-	puts name
-end
+#name constructor
+d = String.new("hello")
 
-4.times do |list_number|
-	puts "#{list_number + 1}"
-end
+puts s.upcase
+puts d.reverse
