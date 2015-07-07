@@ -3,7 +3,7 @@ products = {}
 @answer = ""
 @item = ""
 @quantity = 0
-
+ 
 puts "Welcome to inventory! Would you like to add an item? yes or no"
 @answer = gets.chomp.downcase
 
