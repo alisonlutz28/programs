@@ -1,0 +1,669 @@
+
+
+Started GET "/contactme" for ::1 at 2015-07-07 10:25:28 -0400
+
+ActionController::RoutingError (No route matches [GET] "/contactme"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.3) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/alisonlutz/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/alisonlutz/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/alisonlutz/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.6ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (19.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (83.2ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (49.8ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (114.6ms)
+
+
+Started GET "/contactme" for ::1 at 2015-07-07 10:25:29 -0400
+
+ActionController::RoutingError (No route matches [GET] "/contactme"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.1.3) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/alisonlutz/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/alisonlutz/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/alisonlutz/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.2ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (51.6ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (43.8ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (99.5ms)
+
+
+Started GET "/" for ::1 at 2015-07-07 10:25:32 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.6ms)
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-07 10:26:07 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (1.6ms)
+Completed 200 OK in 18ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-07 10:26:08 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-07 10:26:09 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/railties-4.2.3/lib/rails/templates/rails/welcome/index.html.erb (0.0ms)
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for ::1 at 2015-07-07 10:42:24 -0400
+
+ActiveRecord::PendingMigrationError (
+
+Migrations are pending. To resolve this issue, run:
+
+	bin/rake db:migrate RAILS_ENV=development
+
+):
+  activerecord (4.2.3) lib/active_record/migration.rb:392:in `check_pending!'
+  activerecord (4.2.3) lib/active_record/migration.rb:373:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.1.3) lib/web_console/middleware.rb:37:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /Users/alisonlutz/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/alisonlutz/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/alisonlutz/.rvm/rubies/ruby-2.2.1/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.1ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (54.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (47.5ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (106.0ms)
+  [1m[36m (1.9ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL) [0m
+  [1m[35m (0.1ms)[0m  select sqlite_version(*)
+  [1m[36m (1.2ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+Migrating to CreatePets (20150707142824)
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.5ms)[0m  CREATE TABLE "pets" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar, "breed" varchar, "age" integer, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20150707142824"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+
+Started GET "/pets/index" for ::1 at 2015-07-07 10:46:14 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"index"}
+  [1m[35mPet Load (0.2ms)[0m  SELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 0]]
+Completed 404 Not Found in 53ms (ActiveRecord: 0.5ms)
+
+ActiveRecord::RecordNotFound (Couldn't find Pet with 'id'=index):
+  app/controllers/pets_controller.rb:67:in `set_pet'
+
+
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (64.0ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/console.js.erb within layouts/javascript (44.2ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/alisonlutz/.rvm/gems/ruby-2.2.1/gems/web-console-2.1.3/lib/web_console/templates/index.html.erb (102.1ms)
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:46:26 -0400
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT "pets".* FROM "pets"[0m
+  Rendered pets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1503ms (Views: 1501.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:46:27 -0400
+
+
+Started GET "/assets/scaffolds.self-f84b1cee87aab81ced6a6d7e2732f477285e596e3af0e150c715a0e1a105a10d.css?body=1" for ::1 at 2015-07-07 10:46:27 -0400
+
+
+Started GET "/assets/pets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:46:27 -0400
+
+
+Started GET "/pets/new" for ::1 at 2015-07-07 10:46:32 -0400
+Processing by PetsController#new as HTML
+  Rendered pets/_form.html.erb (75.0ms)
+  Rendered pets/new.html.erb within layouts/application (78.1ms)
+Completed 200 OK in 139ms (Views: 132.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pets" for ::1 at 2015-07-07 10:47:26 -0400
+Processing by PetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"W/dn41kAwSNj1AqsCsd+hCtp8xeqbHs8yQq08tSawBmgxuTemzRlDlgDIrZEd7FYdR+SielRzk7mcVURluSfdw==", "pet"=>{"name"=>"Fluffy", "breed"=>"Poodle", "age"=>"8"}, "commit"=>"Create Pet"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "pets" ("name", "breed", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Fluffy"], ["breed", "Poodle"], ["age", 8], ["created_at", "2015-07-07 14:47:26.746907"], ["updated_at", "2015-07-07 14:47:26.746907"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/pets/1
+Completed 302 Found in 6ms (ActiveRecord: 1.7ms)
+
+
+Started GET "/pets/1" for ::1 at 2015-07-07 10:47:26 -0400
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pets/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 45ms (Views: 43.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:47:30 -0400
+Processing by PetsController#index as HTML
+  [1m[35mPet Load (0.2ms)[0m  SELECT "pets".* FROM "pets"
+  Rendered pets/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pets/1" for ::1 at 2015-07-07 10:47:32 -0400
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pets/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 47ms (Views: 45.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:47:33 -0400
+Processing by PetsController#index as HTML
+  [1m[35mPet Load (0.3ms)[0m  SELECT "pets".* FROM "pets"
+  Rendered pets/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 33ms (Views: 32.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/pets/1" for ::1 at 2015-07-07 10:47:53 -0400
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets/1/edit" for ::1 at 2015-07-07 10:47:57 -0400
+Processing by PetsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mPet Load (0.1ms)[0m  SELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered pets/_form.html.erb (2.0ms)
+  Rendered pets/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/pets/1" for ::1 at 2015-07-07 10:48:01 -0400
+Processing by PetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xFrnZoD060g0frbcv6yhSsGXUjO1CIMVKYe2vARnq3g/a2RbQsBPZQ+pnsbxHG6Wn+EzrfY1NmcG/FdfRhn0Fg==", "pet"=>{"name"=>"Fluffy", "breed"=>"Poodle", "age"=>"6"}, "commit"=>"Update Pet", "id"=>"1"}
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "pets" SET "age" = ?, "updated_at" = ? WHERE "pets"."id" = ?[0m  [["age", 6], ["updated_at", "2015-07-07 14:48:01.374145"], ["id", 1]]
+  [1m[35m (11.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/pets/1
+Completed 302 Found in 15ms (ActiveRecord: 11.8ms)
+
+
+Started GET "/pets/1" for ::1 at 2015-07-07 10:48:01 -0400
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 30.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:48:04 -0400
+Processing by PetsController#index as HTML
+  [1m[35mPet Load (0.1ms)[0m  SELECT "pets".* FROM "pets"
+  Rendered pets/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:49:46 -0400
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT "pets".* FROM "pets"[0m
+  Rendered pets/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/pets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:49:46 -0400
+
+
+Started GET "/assets/scaffolds.self-f84b1cee87aab81ced6a6d7e2732f477285e596e3af0e150c715a0e1a105a10d.css?body=1" for ::1 at 2015-07-07 10:49:46 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:49:46 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-07 10:49:46 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-07 10:49:46 -0400
+
+
+Started GET "/assets/pets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:49:46 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-07 10:49:46 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-07 10:49:46 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:49:46 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-07 10:49:46 -0400
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:49:50 -0400
+Processing by PetsController#index as HTML
+  [1m[35mPet Load (0.2ms)[0m  SELECT "pets".* FROM "pets"
+  Rendered pets/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 38ms (Views: 36.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:49:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-07 10:49:50 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:49:50 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-07 10:49:50 -0400
+
+
+Started GET "/assets/scaffolds.self-f84b1cee87aab81ced6a6d7e2732f477285e596e3af0e150c715a0e1a105a10d.css?body=1" for ::1 at 2015-07-07 10:49:50 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-07 10:49:50 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-07 10:49:50 -0400
+
+
+Started GET "/assets/pets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:49:50 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:49:50 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-07 10:49:50 -0400
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:49:55 -0400
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.2ms)[0m  [1mSELECT "pets".* FROM "pets"[0m
+  Rendered pets/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 34ms (Views: 33.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/scaffolds.self-f84b1cee87aab81ced6a6d7e2732f477285e596e3af0e150c715a0e1a105a10d.css?body=1" for ::1 at 2015-07-07 10:49:55 -0400
+
+
+Started GET "/assets/pets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:49:55 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-07 10:49:55 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:49:55 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-07 10:49:55 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-07 10:49:55 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-07 10:49:55 -0400
+
+
+Started GET "/assets/pets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:49:55 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:49:55 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-07 10:49:55 -0400
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:53:05 -0400
+Processing by PetsController#index as HTML
+  [1m[35mPet Load (0.2ms)[0m  SELECT "pets".* FROM "pets"
+  Rendered pets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 34ms (Views: 32.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/scaffolds.self-f84b1cee87aab81ced6a6d7e2732f477285e596e3af0e150c715a0e1a105a10d.css?body=1" for ::1 at 2015-07-07 10:53:05 -0400
+
+
+Started GET "/assets/pets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:53:05 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:53:05 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-07 10:53:05 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-07 10:53:05 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-07 10:53:05 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-07 10:53:05 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:53:05 -0400
+
+
+Started GET "/assets/pets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:53:05 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-07 10:53:05 -0400
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:53:45 -0400
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT "pets".* FROM "pets"[0m
+  Rendered pets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 48ms (Views: 46.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:53:46 -0400
+
+
+Started GET "/assets/pets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:53:46 -0400
+
+
+Started GET "/assets/scaffolds.self-f84b1cee87aab81ced6a6d7e2732f477285e596e3af0e150c715a0e1a105a10d.css?body=1" for ::1 at 2015-07-07 10:53:46 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-07 10:53:46 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-07 10:53:46 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-07 10:53:46 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-07 10:53:46 -0400
+
+
+Started GET "/assets/pets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:53:46 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:53:46 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-07 10:53:46 -0400
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:53:50 -0400
+Processing by PetsController#index as HTML
+  [1m[35mPet Load (0.2ms)[0m  SELECT "pets".* FROM "pets"
+  Rendered pets/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 35ms (Views: 33.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/pets.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:53:50 -0400
+
+
+Started GET "/assets/scaffolds.self-f84b1cee87aab81ced6a6d7e2732f477285e596e3af0e150c715a0e1a105a10d.css?body=1" for ::1 at 2015-07-07 10:53:50 -0400
+
+
+Started GET "/assets/application.self-e80e8f2318043e8af94dddc2adad5a4f09739a8ebb323b3ab31cd71d45fd9113.css?body=1" for ::1 at 2015-07-07 10:53:50 -0400
+
+
+Started GET "/assets/jquery.self-d03a5518f45df77341bdbe6201ba3bfa547ebba8ed64f0ea56bfa5f96ea7c074.js?body=1" for ::1 at 2015-07-07 10:53:50 -0400
+
+
+Started GET "/assets/jquery_ujs.self-ca5248a2fad13d6bd58ea121318d642f195f0b2dd818b30615f785ff365e8d1f.js?body=1" for ::1 at 2015-07-07 10:53:50 -0400
+
+
+Started GET "/assets/welcome.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for ::1 at 2015-07-07 10:53:50 -0400
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2015-07-07 10:53:50 -0400
+
+
+Started GET "/assets/pets.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:53:50 -0400
+
+
+Started GET "/assets/welcome.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for ::1 at 2015-07-07 10:53:50 -0400
+
+
+Started GET "/assets/application.self-3b8dabdc891efe46b9a144b400ad69e37d7e5876bdc39dee783419a69d7ca819.js?body=1" for ::1 at 2015-07-07 10:53:50 -0400
+
+
+Started GET "/pets/1" for ::1 at 2015-07-07 10:53:51 -0400
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered pets/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:53:53 -0400
+Processing by PetsController#index as HTML
+  [1m[35mPet Load (0.2ms)[0m  SELECT "pets".* FROM "pets"
+  Rendered pets/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 30ms (Views: 29.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets/new" for ::1 at 2015-07-07 10:53:56 -0400
+Processing by PetsController#new as HTML
+  Rendered pets/_form.html.erb (1.9ms)
+  Rendered pets/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pets" for ::1 at 2015-07-07 10:54:46 -0400
+Processing by PetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P1Mxytk7u5Ut5kCrArGJ8Ct0BG5cwPTfJoQLdL8jyLrEYrL3Gw8fuBYxaLFMAUYsdQJl8B/9Qa0J/+qX/V2X1A==", "pet"=>{"name"=>"Lilly", "breed"=>"Boston Terrier", "age"=>"4"}, "commit"=>"Create Pet"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "pets" ("name", "breed", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)  [["name", "Lilly"], ["breed", "Boston Terrier"], ["age", 4], ["created_at", "2015-07-07 14:54:46.069516"], ["updated_at", "2015-07-07 14:54:46.069516"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pets/2
+Completed 302 Found in 6ms (ActiveRecord: 2.5ms)
+
+
+Started GET "/pets/2" for ::1 at 2015-07-07 10:54:46 -0400
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mPet Load (0.1ms)[0m  SELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 2]]
+  Rendered pets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:54:48 -0400
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT "pets".* FROM "pets"[0m
+  Rendered pets/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 32ms (Views: 31.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets/new" for ::1 at 2015-07-07 10:54:51 -0400
+Processing by PetsController#new as HTML
+  Rendered pets/_form.html.erb (1.6ms)
+  Rendered pets/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/pets" for ::1 at 2015-07-07 10:55:09 -0400
+Processing by PetsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yBbzCGNBjkWGIwovcN2vM49uXzFFjMCDde6xbqq0pXAzJ3A1oXUqaL30IjU+bWDv0Rg+rwaxdfFalVCN6Mr6Hg==", "pet"=>{"name"=>"Scruff", "breed"=>"Greyhound", "age"=>"9"}, "commit"=>"Create Pet"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "pets" ("name", "breed", "age", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["name", "Scruff"], ["breed", "Greyhound"], ["age", 9], ["created_at", "2015-07-07 14:55:09.067026"], ["updated_at", "2015-07-07 14:55:09.067026"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/pets/3
+Completed 302 Found in 5ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/pets/3" for ::1 at 2015-07-07 10:55:09 -0400
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered pets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 33.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:55:10 -0400
+Processing by PetsController#index as HTML
+  [1m[35mPet Load (0.2ms)[0m  SELECT "pets".* FROM "pets"
+  Rendered pets/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 32ms (Views: 30.8ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/pets/2" for ::1 at 2015-07-07 10:55:23 -0400
+Processing by PetsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"RK4CksATBrI88RAt8/+IZpNB7viRwmMbs6YUPlD//gO/n4GvAieinwcmODe9T0e6zTePZtL/1mmc3fXdEoGhbQ==", "id"=>"2"}
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mDELETE FROM "pets" WHERE "pets"."id" = ?[0m  [["id", 2]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/pets
+Completed 302 Found in 5ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/pets" for ::1 at 2015-07-07 10:55:23 -0400
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.2ms)[0m  [1mSELECT "pets".* FROM "pets"[0m
+  Rendered pets/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 42ms (Views: 41.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/pets/3" for ::1 at 2015-07-07 10:58:50 -0400
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPet Load (0.1ms)[0m  SELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered pets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 31ms (Views: 30.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets/3/edit" for ::1 at 2015-07-07 11:02:14 -0400
+Processing by PetsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered pets/_form.html.erb (1.7ms)
+  Rendered pets/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 36ms (Views: 34.5ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/pets/3" for ::1 at 2015-07-07 11:02:29 -0400
+Processing by PetsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"mycU6EAlpF4cTgPC1Jd3ZLo9CTQXXXdsi82wCkq/RipgFpfVghEAcyeZK9iaJ7i45EtoqlRgwh6ktlHpCMEZRA==", "pet"=>{"name"=>"Scruff", "breed"=>"Greyhound", "age"=>"10"}, "commit"=>"Update Pet", "id"=>"3"}
+  [1m[35mPet Load (0.1ms)[0m  SELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 3]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  UPDATE "pets" SET "age" = ?, "updated_at" = ? WHERE "pets"."id" = ?  [["age", 10], ["updated_at", "2015-07-07 15:02:29.936329"], ["id", 3]]
+  [1m[36m (256.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/pets/3
+Completed 302 Found in 261ms (ActiveRecord: 256.8ms)
+
+
+Started GET "/pets/3" for ::1 at 2015-07-07 11:02:30 -0400
+Processing by PetsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mPet Load (0.1ms)[0m  SELECT  "pets".* FROM "pets" WHERE "pets"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered pets/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 34.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/pets" for ::1 at 2015-07-07 11:02:31 -0400
+Processing by PetsController#index as HTML
+  [1m[36mPet Load (0.1ms)[0m  [1mSELECT "pets".* FROM "pets"[0m
+  Rendered pets/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.1ms)

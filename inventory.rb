@@ -1,9 +1,17 @@
+<<<<<<< HEAD
  products = {}
+=======
+products = {}
+>>>>>>> branch1
 
 @answer = ""
 @item = ""
 @quantity = 0
+<<<<<<< HEAD
  
+=======
+
+>>>>>>> branch1
 puts "Welcome to inventory! Would you like to add an item? yes or no"
 @answer = gets.chomp.downcase
 
