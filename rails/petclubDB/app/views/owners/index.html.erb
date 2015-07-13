@@ -7,6 +7,7 @@ td
 </style>
 <center>
 <h1>Club Members</h1>
+<br>
 </center>
 <table>
   <thead>
@@ -28,7 +29,7 @@ td
         <td><%= owner.club.name %></td>
         <td><%= link_to 'Show', owner, class: "btn btn-default"%></td>
         <td><%= link_to 'Edit', edit_owner_path(owner), class: "btn btn-default" %></td>
-        <td><%= link_to 'Destroy', owner, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-default" %></td>
+        <td><%= link_to 'Delete', owner, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-default" %></td>
       </tr>
     <% end %>
   </tbody>

@@ -7,6 +7,7 @@ td
 </style>
 <center>
 <h1>List of Clubs</h1>
+<br>
 </center>
 <table>
   <thead>
@@ -26,7 +27,7 @@ td
         <td><%= club.state %></td>
         <td><%= link_to 'Show', club, class: "btn btn-default" %></td>
         <td><%= link_to 'Edit', edit_club_path(club), class: "btn btn-default" %></td>
-        <td><%= link_to 'Destroy', club, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-default" %></td>
+        <td><%= link_to 'Delete', club, method: :delete, data: { confirm: 'Are you sure?' }, class: "btn btn-default" %></td>
       </tr>
     <% end %>
   </tbody>
