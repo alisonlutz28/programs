@@ -1,0 +1,28 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @club.name %>
+</p>
+
+<p>
+  <strong>City:</strong>
+  <%= @club.city %>
+</p>
+
+<p>
+  <strong>State:</strong>
+  <%= @club.state %>
+</p>
+
+<p>
+	<strong>Members in this Club:</strong>
+	<% @club.owners.each do |owner| %>
+	<ul>
+		<%= owner.name %>
+	</ul>
+	<% end %>
+</p>
+
+<%= link_to 'Edit', edit_club_path(@club), class: "btn btn-default" %> |
+<%= link_to 'Back', clubs_path, class: "btn btn-default"%>

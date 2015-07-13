@@ -7,7 +7,16 @@
 
 <p>
   <strong>Genre:</strong>
-  <%= @artist.genre_id %>
+  <%= @artist.genre.name %>
+</p>
+
+<p>
+	<strong>Songs by this Artist:</strong>
+	<% @artist.songs.each do |song| %>
+	<u1>
+			<li><%= song.name %></li>
+	</u1>
+	<% end %>
 </p>
 
 <%= link_to 'Edit', edit_artist_path(@artist) %> |

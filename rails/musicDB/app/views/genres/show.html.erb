@@ -5,5 +5,13 @@
   <%= @genre.name %>
 </p>
 
+<p>
+	<strong>Arists in this Genre:</strong>
+	<% @genre.artists.each do |artist| %>
+	<u1>
+			<li><%= artist.name %></li>
+	</u1>
+	<% end %>
+</p>
 <%= link_to 'Edit', edit_genre_path(@genre) %> |
 <%= link_to 'Back', genres_path %>
