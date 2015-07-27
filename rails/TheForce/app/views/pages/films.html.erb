@@ -1,0 +1,33 @@
+<table>
+	<tbody>
+		<tr>
+			<th>Title</th>
+			<th>Episode ID</th>
+			<th>Release Date</th>
+			<th>Opening Crawl</th>
+			<th>Species</th>
+			<th>Starships</th>
+			<th>Characters</th>
+			<th>Planets</th>
+		</tr>
+		
+		<% @results.each do |film| %>
+			<tr>
+				<td><%= film["title"]%></td>
+				<td><%= film["episode_id"]%></td>
+				<td><%= film["release_date"]%></td>
+				<td><%= film["opening_crawl"]%></td>
+				<td><%= film["species"]%></td>
+				<td><%= film["starships"].each do |starships|%>
+					<%= JSON.parse(open(starships).read)["name"]%>
+					<% end %></td>
+				<td><%= film["characters"].each do |characters|%>
+					<%= JSON.parse(open(characters).read)["name"]%></td>
+					<% end %></td>
+				<td><%= film["planets"].each do |planets|%>
+					<%= JSON.parse(open(planets).read)["name"]%>
+					<% end %></td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>

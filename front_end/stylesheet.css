@@ -1,0 +1,46 @@
+body {
+	background: #ACFFCB;
+	color: #694E33;
+	font-family: 'Book Antiqua';
+	background: #CCFFCC;
+}
+
+h1	{
+	font-size: 35px;
+	background-color: #AD8154;
+	color: white
+}
+
+p {
+	color: #1A9481;
+	font-family: 'Georgia';
+	font-size: 18px;
+	text-align: center;
+}
+
+div p {
+	color: white;
+	font-family: 'Palatino Linotype';
+	font-size: 18px;
+}
+
+.class_test {
+	color: purple;
+	font-size: 30px;
+}
+
+#id_test {
+	color: magenta;
+	font-size: 50px;
+}
+
+.hover_test:hover {
+	font-size: 50px;
+	text-decoration: none;
+}
+
+a:visited {
+	background: #FFCCCC;
+	color: purple;
+}
+;

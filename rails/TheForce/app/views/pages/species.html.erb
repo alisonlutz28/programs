@@ -1,0 +1,28 @@
+<table>
+	<tbody>
+		<tr>
+			<th>Name</th>
+			<th>Classification</th>
+			<th>Designation</th>
+			<th>Average Height</th>
+			<th>Skin Colors</th>
+			<th>Hair Colors</th>
+			<th>Eye Colors</th>
+			<th>Average Lifespan</th>
+			<th>Language</th>
+		</tr>
+		<% @results.each do |species| %>
+			<tr>
+				<td><%= species["name"]%></td>
+				<td><%= species["classification"]%></td>
+				<td><%= species["designation"]%></td>
+				<td><%= species["average_height"]%></td>
+				<td><%= species["skin_colors"]%></td>
+				<td><%= species["hair_colors"]%></td>
+				<td><%= species["eye_colors"]%></td>
+				<td><%= species["average_lifespan"]%></td>
+				<td><%= species["language"]%> </td>
+			</tr>
+		<% end %>
+	</tbody>
+</table>

@@ -21,8 +21,10 @@
   </div>
   <div class="field">
     <%= f.label :genre_id %><br>
-    <%= f.collection_select :genre_id, Genre.all, :id, :name %>
+    <%= f.collection_select :genre_id, Genre.order(:name), :id, :name %>
   </div>
+  <br>
+  <br>
   <div class="actions">
     <%= f.submit %>
   </div>

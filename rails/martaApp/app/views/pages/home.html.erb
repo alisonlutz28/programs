@@ -1,0 +1,9 @@
+<h1 class="panel panel-heading panel-default">Where's my Bus?</h1>
+
+<p>Choose your station from the list below, then click "where's my bus?": </p>
+
+<%= form_tag("/pages/yourBuses", method: "post") do %>
+	<%= select_tag "station", options_for_select(MartaApp::Application.config.stations) %>
+	<!-- This is kind of like collection_select, except our options are populated by the Marta API. -->
+	<%= submit_tag("Where's my bus?", :class => "btn btn-primary")%>
+<% end %>
