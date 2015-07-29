@@ -5,11 +5,11 @@
 		<%= @blog_post.title %>
 	</div>
 	<div class="panel panel-body">
-		<p>by <%= @blog_post.author %></p>
+		<p>by <%= @blog_post.author%> on <%= @blog_post.created_at.strftime('%A, %b %dth, %Y at %k:%M') %></p>
 		<p><%= @blog_post.blog_entry %></p>
 		<br>
 		<center>
-			<%= link_to 'Edit Post', edit_blog_post_path(@blog_post), class: "btn btn-warning" %> |
+			<%= link_to 'Edit Post', edit_blog_post_path(@blog_post), class: "btn btn-warning" %>
 			<%= link_to 'Back to Index', blog_posts_path, class: "btn btn-primary" %>
 		</center>
 	</div>

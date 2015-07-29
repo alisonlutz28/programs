@@ -9,7 +9,7 @@
         <!-- this links to "Show" the blog post -->
       </div>
       <div class="panel-body">
-        by <%= blog_post.author%><br />
+        by <%= blog_post.author%> on <%= blog_post.created_at.strftime('%A, %b %dth, %Y at %k:%M') %><br />
         <p><%= blog_post.blog_entry[0..250]%>...[<%= link_to "READ MORE", blog_post %>]</p>
         <!-- this means only 250 characters will appear of each post in the index -->
       </div>
@@ -24,4 +24,6 @@
 
 <br>
 
-<%= link_to 'New Blog post', new_blog_post_path %>
+<center>
+<%= link_to 'New Blog post', new_blog_post_path, class: "btn btn-primary" %>
+</center>
