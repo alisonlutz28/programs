@@ -42,4 +42,12 @@ body {
 .btn:visited {
 	color: white;
 }
+
+.links {
+	margin-top: 10px;
+}
+
+.form-control-two {
+	width: 300px;
+}
 /*margin is the "outside" space, padding is the "inside" space*/

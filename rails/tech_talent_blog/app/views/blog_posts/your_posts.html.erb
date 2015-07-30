@@ -1,8 +1,8 @@
-<h1>Current Blog Post</h1>
+<h1>Your Posts</h1>
 <br>
 
 <div class="row">
-  <% @blog_posts.each do |blog_post| %>
+<% current_user.blog_posts.each do |blog_post| %>
   <div class="col-md-6">
     <div class="panel panel-default">
       <div class="panel-heading">
@@ -10,19 +10,15 @@
         <!-- this links to "Show" the blog post -->
       </div>
       <div class="panel-body">
-        by <%= link_to blog_post.user.name, user_posts_path(id: blog_post.user.id) %> on <%= blog_post.created_at.strftime('%A, %b %d, %Y at %k:%M')%>
-          <br>
-          <br>
+        <p>by <%= blog_post.user.name%> on <%= blog_post.created_at.strftime('%A, %b %d, %Y at %k:%M') %></p>
+          <br />
         <p><%= blog_post.blog_entry[0..250]%>...[<%= link_to "READ MORE", blog_post %>]</p>
         <!-- this means only 250 characters will appear of each post in the index -->
       </div>
       <div class="panel-footer">
-        <% if current_user.id == blog_post.user.id %>
         <%= link_to 'Edit', edit_blog_post_path(blog_post), class: "btn btn-warning" %>
         <%= link_to 'Destroy', blog_post, method: :delete, data: {confirm: 'Are you sure?'}, class: "btn btn-danger" %>
-        <% end %>
       </div>
     </div>
   </div>
-  <% end %>
-</div>
+<% end %>
