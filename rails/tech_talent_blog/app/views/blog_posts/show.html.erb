@@ -9,7 +9,7 @@
 		<br>
 		<p><%= @blog_post.blog_entry %></p>
 		<br>
-			<% if current_user.id == @blog_post.user.id %>
+			<% if current_user == @blog_post.user %>
 			<%= link_to 'Edit Post', edit_blog_post_path(@blog_post), class: "btn btn-warning" %>
 			<%= link_to 'Back to Index', blog_posts_path, class: "btn btn-primary" %>
 			<% end %>
