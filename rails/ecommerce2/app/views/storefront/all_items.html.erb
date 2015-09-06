@@ -1,0 +1,25 @@
+<h1>Welcome to the Tech Talent Store!</h1>
+<p>Give us all your money.</p>
+
+<div class="row">
+	<% @products.each do |product| %>
+	<div class="col-md-4">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<div style="height:150px;">
+				<%= image_tag product.image.url(:thumb) %>
+				</div>
+				<p><a href="#">
+					<span class="glyphicon glyphicon-plus"></span> quick info</a></p>
+					<p><strong><%= number_to_currency product.price %></strong></p>
+					<p><%= product.name%></p>
+					<div style="height:150px;">
+						<p><%= product.description%></p>
+					</div>
+					<p>Made by: <%= product.brand%></p>
+
+			</div>
+		</div>
+	</div>
+	<% end %>
+</div>

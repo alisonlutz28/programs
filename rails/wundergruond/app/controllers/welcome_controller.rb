@@ -60,4 +60,3 @@ end
   @real_feel = response['current_observation']['feelslike_f']
   end
 end
-end
